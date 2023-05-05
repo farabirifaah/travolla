@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+@import url("https://fonts.cdnfonts.com/css/poppins");
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -42,47 +42,47 @@
 @import "spinners";
 @import "utilities";
 @import "print";
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .brand-text-icon {
-    font-size: 26px;
-    font-weight: 100;
-    font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: $primary;
+  &:hover {
     color: $primary;
-    &:hover {
-      color: $primary;
-      text-decoration: none;
-    }
+    text-decoration: none;
   }
-  
-  header {
-    border-bottom: 1px solid $gray-200;
-    width: 100%;
-    position: relative;
-    margin-bottom: 50px;
-  
-    .navbar {
-      height: 80px;
-  
-      ul.navbar-nav {
-        li.nav-item {
-          &.active {
-            a.nav-link {
-              color: $primary;
-            }
+}
+
+header {
+  border-bottom: 1px solid $gray-200;
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+
+  .navbar {
+    height: 80px;
+
+    ul.navbar-nav {
+      li.nav-item {
+        &.active {
+          a.nav-link {
+            color: $primary;
           }
-          a {
-            &.nav-link {
-              letter-spacing: 1px;
-              color: $gray-900;
-              padding-left: 1rem;
-              padding-right: 1rem;
-              &:hover {
-                text-decoration: underline;
-              }
+        }
+        a {
+          &.nav-link {
+            letter-spacing: 1px;
+            font-weight: 500;
+            color: $gray-900;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            &:hover {
+              text-decoration: underline;
             }
           }
         }
       }
     }
   }
+}
