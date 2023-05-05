@@ -1,0 +1,12 @@
+{
+    "emmet.preferences": {
+        "emmet.triggerExpansionOnTab": true,
+        "files.associations": {"*html":"html"},
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "razor": "html",
+        "plaintext": "pug"
+    },
+    "emmet.showAbbreviationSuggestions": true
+}
