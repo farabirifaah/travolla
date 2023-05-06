@@ -13,7 +13,7 @@ import formatNumber from "utils/formatNumber";
 export default function Hero(props) {
   function showMostPicked() {
     window.scrollTo({
-      top: (props.refMostPicked.current.offsetTop = 30),
+      top: props.refMostPicked.current.offsetTop - 30,
       behavior: "smooth",
     });
   }
@@ -88,7 +88,7 @@ export default function Hero(props) {
           </div>
         </div>
 
-        <div className="col -6 pl-5">
+        <div className="col-6 pl-5">
           <div style={{ width: 520, height: 410 }}>
             <img
               src={ImageHero}
