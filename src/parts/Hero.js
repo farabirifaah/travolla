@@ -6,7 +6,7 @@ import IconCities from "assets/images/icons/icon_cities.svg";
 import IconTraveler from "assets/images/icons/icon_traveler.svg";
 import IconTreasure from "assets/images/icons/icon_treasure.svg";
 
-import Button from "elements/Buttons";
+import Button from "elements/Button";
 
 import formatNumber from "utils/formatNumber";
 

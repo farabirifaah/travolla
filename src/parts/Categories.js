@@ -1,4 +1,4 @@
-import Button from "elements/Buttons";
+import Button from "elements/Button";
 import React from "react";
 
 export default function Categories({ data }) {
