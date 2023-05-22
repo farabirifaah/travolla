@@ -3,9 +3,9 @@ import Fade from "react-reveal/Fade";
 
 import ImageHero from "assets/images/img-hero.jpg";
 import ImageHero_ from "assets/images/img-hero-frame.jpg";
-import IconCities from "assets/images/icons/icon_cities.svg";
-import IconTraveler from "assets/images/icons/icon_traveler.svg";
-import IconTreasure from "assets/images/icons/icon_treasure.svg";
+import IconCities from "assets/images/icons/icon-cities.svg";
+import IconTraveler from "assets/images/icons/icon-traveler.svg";
+import IconTreasure from "assets/images/icons/icon-treasure.svg";
 
 import Button from "elements/Button";
 
@@ -94,7 +94,7 @@ export default function Hero(props) {
           </div>
 
           <div className="col-6 pl-5">
-            <div style={{ width: 520, height: 410 }}>
+            <div style={{ width: 420, height: 310, marginLeft: "-30px" }}>
               <img
                 src={ImageHero}
                 alt="Room With Couches"
@@ -105,7 +105,7 @@ export default function Hero(props) {
                 src={ImageHero_}
                 alt="Room With Couches Frame"
                 className="img-fluid position-absolute"
-                style={{ margin: "0 -15px -15px 0" }}
+                // style={{ margin: "0 -15px -15px 0" }}
               />
             </div>
           </div>
