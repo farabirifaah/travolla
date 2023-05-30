@@ -120,7 +120,9 @@ export default class BookingForm extends Component {
           hasShadow
           isPrimary
           isBlock
-          onClick={this.startBooking}
+          // onClick={this.startBooking}
+          href="/checkout"
+          type="link"
         >
           Continue to Book
         </Button>

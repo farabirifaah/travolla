@@ -155,7 +155,7 @@ export default class Checkout extends Component {
                 <Controller>
                   <Button
                     className="btn"
-                    type="button"
+                    type="link"
                     isBlock
                     isPrimary
                     hasShadow
